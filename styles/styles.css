@@ -18,11 +18,12 @@ hr{
     width:70%;
     background-color:blue;
 }
-button{
-    background-color:rgb(107, 140, 200);
+.start-quiz{
+    appearance:button;
+    color:rgb(5, 23, 54);
+    size:0cap;
+    padding: 0.2em 0.4em;
     text-align:center;
-    display:inline-block;
-    font-size:16px;
 }
 
 .quiz,
