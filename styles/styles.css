@@ -1,5 +1,6 @@
 body {
     background-color:rgb(209, 209, 94);
+    text-align:center;
 }
 h1{
     color:darkblue;
@@ -11,7 +12,7 @@ h1{
     margin-right:auto;
 }
 p{
-    color:rgb(28, 19, 150);
+    color:rgb(18, 18, 91);
     text-align:center;
 }
 hr{
@@ -25,7 +26,16 @@ hr{
     padding: 0.2em 0.4em;
     text-align:center;
 }
-
+.next-button{
+    appearance:button;
+    color:rgb(5, 23, 54);
+    size:0cap;
+    padding: 0.2em 0.4em;
+    text-align:center;
+}
+form{
+    display:inline-block;
+}
 .quiz,
 .choices{
     list-style-type: none;
