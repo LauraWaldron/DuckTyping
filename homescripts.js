@@ -25,8 +25,29 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 })
 
-if(answers.q1 == "No" && answers.q5 == "No"){
+if(answers.q1 == "2" && answers.q5 == "2"){
+    results = "not a computer science or engineering";
+}
+else if(answers.q1 == "1"){
+    //do you like puzzles?
+    if(answers.q2 == "1"){
 
+    }
+    else if(answers.q2 == "2"){
+ 
+    }
+    if(answers.q3 == "1"){//Introvert
+
+    }
+    else if(answers.q3 = "2"){//Extrovert
+
+    }
+    else if(answers.q3 == "3"){//ambivert
+        //Likes math and works solo
+        if(answers.q5 == "1" && answers.q7 == "1"){
+            results = "Computer Engineering";
+        }
+    }
 }
 
 
@@ -36,14 +57,14 @@ sessionStorage.setItem("quizResults", results);
 //redirect to results.html
 location.href = "results.html"
 
-document.getElementById("Qlbutton").onclick=function(){
-    location.href="http://127.0.0.1:5500/frontend/Q1.html"
-};
+//document.getElementById("Qlbutton").onclick=function(){
+//    location.href="http://127.0.0.1:5500/frontend/Q1.html"
+//};
 
 
 //the answers to the multiple choice questions
-var options=["1", "2", "3"],
- tot=answers.length;
-function getValue(radioName){
-    var radios=getElementsByName(radioName);
-}
+//var options=["1", "2", "3"],
+// tot=answers.length;
+//function getValue(radioName){
+//    var radios=getElementsByName(radioName);
+//}
