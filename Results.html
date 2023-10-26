@@ -23,6 +23,15 @@
         <h2>Thanks for testing!</h2>
         <hr>
         <p>Your Results are in!</p>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                //retrieve the score
+                const results = sessionStorage.getItem("quizResults");
+            });
+            //display the score
+            document.getElementById("results").textContent = results;
+        </script>
+        <p id="results">You are a:<span id="results">Major!</span></p>
         <p>You are a...Major!</p>
         <p>To read some tips for your major, click the below link.</p>
         <a class="tips" href="https://laurawaldron.github.io/DuckTyping/tips.html">Tips!</a>      
